@@ -56,8 +56,6 @@ module.exports = async({
       1,
       2022
     ];
-  
-    // mint NFT and check tokenId is 0
     let transactionResponse = await receiptNFT.create(
       "Joe Recipient",
       await accounts[1].getAddress(),
