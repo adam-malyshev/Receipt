@@ -37,6 +37,7 @@ describe("RecieptNFT Contract", function () {
       recipientAddress =  [
           123,
           "Street",
+          "City",
           12345,
           "NJ",
           "United States of America"
@@ -44,6 +45,7 @@ describe("RecieptNFT Contract", function () {
       sellerAddress =  [
         123,
         "Street",
+        "City",
         12345,
         "NJ",
         "United States of America"
